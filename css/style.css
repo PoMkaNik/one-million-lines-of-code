@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+body {
+  padding-top: 3.5rem;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* Navigation */
+
+.navbar {
+  background-color: #1e1e1e;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.navbar-brand > span {
+  font-weight: 400;
+}
+
+ul.navbar-nav {
+  text-transform: uppercase;
+  font-family: 'Arvo', serif;
+  font-size: 0.8em;
+}
+
+ul.navbar-nav li {
+  margin-left: 0.8em;
+}
+
+@media (max-width: 768px) {
+  ul.navbar-nav {
+    font-size: initial;
+  }
+}
+
+/* Banner */
+
+.jumbotron {
+  color: white;
+  background-image: url('../img/bg-city-3-dark.jpg');
+  background-size: cover;
+  min-height: 60vh;
+  border-radius: 0;
+  padding-bottom: 1em;
+}
+
+.jumbotron h1 {
+  margin: 1.5em 0;
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  font-size: 4em;
+}
+
+.jumbotron p {
+  margin: 1em 0;
+  padding: 0 2em;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  font-weight: lighter;
+}
+
+.jumbotron .btn {
+  font-size: 1.2em;
+}
+
+.jumbotron > div > img {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .jumbotron h1 {
+    margin: 1em 0;
+    font-size: 2em;
+  }
+
+  .jumbotron p {
+    margin: 1em 0;
+    padding: 0 0.2em;
+    font-size: 1em;
+  }
+
+  .jumbotron .btn {
+    font-size: 1.3em;
+  }
+
+  .jumbotron > div > img {
+    display: block;
+    width: 70px;
+    margin: 0 auto;
+  }
+}
+
+/* Who We Are */
+
+#who-we-are {
+  text-align: center;
+  padding: 2em 1em;
+}
+
+#who-we-are img {
+  display: block;
+  margin: 0 auto;
+}
+
+#who-we-are h2 {
+  color: #e74c3c;
+  text-transform: uppercase;
+  font-family: 'Arvo', serif;
+  margin-top: 0.8em;
+}
+
+#who-we-are hr {
+  width: 10em;
+  border-top: 1px solid #e74c3c;
+}
+
+#who-we-are p {
+  font-size: 1.3em;
+}
+
+#who-we-are p span {
+  color: #e74c3c;
+}
+
+/* Get Involved */
+
+#get-involved {
+  background: #eee;
+  text-align: center;
+  padding: 1.5em 1em;
+}
+
+#get-involved h2 {
+  color: #e74c3c;
+  text-transform: uppercase;
+  font-family: 'Arvo', serif;
+  margin-top: 0.8em;
+}
+
+#get-involved hr {
+  width: 10em;
+  border-top: 1px solid #e74c3c;
+}
+
+#get-involved .row {
+  padding-top: 1.5em;
+}
+
+#get-involved h3 {
+  color: #e74c3c;
+  text-transform: uppercase;
+  font-family: 'Arvo', serif;
+  margin-top: 0.8em;
+}
+
+#get-involved p {
+  font-size: 1.3em;
+}
+
+#get-involved .btn {
+  color: #e74c3c;
+  border: 1px solid #ccc;
+  font-size: 0.7em;
+}
+
+/* Footer */
+
+footer {
+  min-height: 25vh;
+  background-color: #e74c3c;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 1em;
+}
+
+footer p:first-of-type {
+  font-size: 1.4em;
+  padding-top: 15vh;
+  text-transform: uppercase;
+}
+
+footer p:first-of-type > span {
+  font-weight: 900;
+}
